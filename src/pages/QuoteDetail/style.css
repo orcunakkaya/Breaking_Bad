@@ -1,0 +1,23 @@
+.quote_detail {
+    padding-left: 1.8rem;
+}
+
+.quote_detail > div > div{
+    margin: 0.7rem 2rem 0;
+    padding: 10px 10px;
+    background-color: #EEEEEE;
+    width: 100;
+    border-radius: 8px;
+}
+
+@media only screen and (max-width: 480px){
+    .quote_detail{
+        padding-left: 1rem;
+    }
+    .quote_detail h1{
+        font-size: 1.2rem;
+    }
+    .quote_detail > div > div{
+        font-size: .8rem;
+    }
+}

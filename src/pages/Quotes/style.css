@@ -1,0 +1,30 @@
+.quote_item{
+    padding: 10px 10px;
+    background-color: #EEEEEE;
+    margin: 0.7rem 2rem 0;
+    width: 100;
+    border-radius: 8px;
+}
+.quotes_info {
+    padding: 30px;
+    text-align: center;
+}
+
+.quote_item a {
+    color: #333;
+    text-decoration: none;
+}
+
+.quote_item a:hover{
+    text-decoration: underline;
+    color: #FF5722;
+}
+
+@media only screen and (max-width: 480px){
+    .quote_item{
+        font-size: .7rem;
+    }
+    .quotes_header{
+        font-size: 1.2rem;
+    }
+}
