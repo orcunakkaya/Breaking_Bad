@@ -1,18 +1,18 @@
 import './App.css';
 import {
-  BrowserRouter as Router,
+  HashRouter,
   Routes,
   Route,
   Link,
 } from "react-router-dom";
-import Home from './pages/Home'
-import Detail from './pages/Detail'
-import Quotes from './pages/Quotes'
-import QuoteDetail from './pages/QuoteDetail'
+import Home from './pages/Home';
+import Detail from './pages/Detail';
+import Quotes from './pages/Quotes';
+import QuoteDetail from './pages/QuoteDetail';
 
   function App() {
     return (
-      <Router>
+      <HashRouter>
         <nav>
           <ul>
             <li>
@@ -36,9 +36,8 @@ import QuoteDetail from './pages/QuoteDetail'
           <Route path="/quotes/:quote_id" element={<QuoteDetail />} />
         </Routes>
       </div>
-    </Router>
+    </HashRouter>
     );
   }
 
 export default App;
-
